@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="boardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAEFEA"/>
+      <stop offset="100%" stop-color="#D2DDD6"/>
+    </linearGradient>
+    <linearGradient id="blockShade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#FBF8EE"/>
+      <stop offset="100%" stop-color="#E8E0CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#boardBg)"/>
+  
+  <!-- Food grade cutting board -->
+  <rect x="80" y="80" width="640" height="440" rx="12" fill="#F4F8F5" stroke="#CCD5D0" stroke-width="2"/>
+  <ellipse cx="400" cy="420" rx="280" ry="35" fill="rgba(25,30,28,0.18)"/>
+
+  <!-- Solid Mozzarella Halved Block -->
+  <!-- Left Cut Half Leaning -->
+  <g transform="translate(160, 160)">
+    <!-- Back block section -->
+    <path d="M 60 180 L 220 180 L 320 80 L 160 80 Z" fill="#F5EFE1" stroke="#D1C7B3"/>
+    <path d="M 60 180 L 220 180 L 220 280 L 60 280 Z" fill="#FCFAF2" stroke="#D1C7B3"/>
+    <path d="M 220 180 L 320 80 L 320 180 L 220 280 Z" fill="#E5DDCC" stroke="#D1C7B3"/>
+    
+    <!-- Right clean slice standing -->
+    <path d="M 280 200 L 440 200 L 480 120 L 320 120 Z" fill="#FCFAF2" stroke="#D1C7B3"/>
+    <path d="M 280 200 L 440 200 L 440 310 L 280 310 Z" fill="url(#blockShade)" stroke="#D1C7B3" stroke-width="1.5"/>
+    <path d="M 440 200 L 480 120 L 480 230 L 440 310 Z" fill="#DDD4C0" stroke="#D1C7B3"/>
+
+    <!-- Curd moisture beads & texture -->
+    <circle cx="340" cy="240" r="3" fill="#C4B79C" opacity="0.4"/>
+    <circle cx="390" cy="270" r="2.5" fill="#C4B79C" opacity="0.4"/>
+    <circle cx="310" cy="280" r="3" fill="#C4B79C" opacity="0.4"/>
+    <path d="M 330 220 Q 360 230 380 225" stroke="#C4B79C" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- Commercial Knife silhouette on board -->
+  <g transform="translate(130, 410) rotate(-12)">
+    <polygon points="0,15 160,10 180,20 160,30 0,25" fill="#B6C1BB" stroke="#717E77"/>
+    <rect x="-80" y="14" width="80" height="12" rx="3" fill="#29302D"/>
+  </g>
+
+  <!-- Technical Spec Badge Overlay -->
+  <g transform="translate(48, 48)">
+    <rect width="270" height="64" rx="6" fill="#191E1C" fill-opacity="0.92"/>
+    <text x="16" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#F59E0B">WHOLE MILK MOZZARELLA</text>
+    <text x="16" y="48" font-family="system-ui, sans-serif" font-size="12" fill="#E3E8E5">Low-Moisture Block • 2.0kg / 2.5kg</text>
+  </g>
+  <text x="750" y="570" font-family="system-ui, sans-serif" font-size="12" fill="#444E49" text-anchor="end">Photo Brief: Canon EOS R6 50mm f/1.8 • A.T Cheese Shop</text>
+</svg>

@@ -1,0 +1,107 @@
+/* ==========================================================================
+   A.T CHEESE SHOP — DESIGN TOKENS
+   Trade-Derived Palette: Aged Cheddar, Dairy Cream, Cold-Chain Chiller & Stainless Steel
+   Palette derived exclusively from commercial dairy products, aged cheddar, and cold-chain stainless steel
+   ========================================================================== */
+
+:root {
+  /* --- Trade Color System --- */
+  /* Dairy Cream Bases (Warm Milk, Whey, Cold-Room Linoleum) */
+  --color-surface-bg: #FAF7F2;
+  --color-surface-card: #FFFFFF;
+  --color-surface-subtle: #F4EFE6;
+  --color-surface-sunken: #EDE6D8;
+  --color-surface-highlight: #FFFDF9;
+
+  /* Aged Cheddar & Melted Curd (Primary Trade Accent) */
+  --color-cheddar-100: #FEF3C7;
+  --color-cheddar-200: #FDE68A;
+  --color-cheddar-400: #F59E0B;
+  --color-cheddar-500: #D97706; /* Primary Action & Brand Gold */
+  --color-cheddar-600: #B45309; /* High-contrast button hover & text */
+  --color-cheddar-700: #92400E; /* Deep crust */
+
+  /* Commercial Stainless & Cast Iron (Text & Ledger Structures) */
+  --color-steel-900: #191E1C; /* Darkest Cast Iron - Primary Body/Headings */
+  --color-steel-800: #29302D; /* Heavy Slate */
+  --color-steel-700: #444E49; /* Secondary Technical Copy */
+  --color-steel-500: #717E77; /* Muted Specs & Borders */
+  --color-steel-300: #CBD3CE; /* Divider Line */
+  --color-steel-200: #E3E8E5; /* Table Borders */
+  --color-steel-100: #F0F4F2; /* Subtle Cold Counter Accent */
+
+  /* Cold-Chain Chiller Green (Freshness, Direct WhatsApp, Live Status) */
+  --color-chiller-50: #ECFDF5;
+  --color-chiller-600: #0D7355; /* Verified badge & status dot */
+  --color-chiller-700: #065F46;
+
+  /* WhatsApp Official Brand Color for Instant Order Dispatch */
+  --color-whatsapp: #1EBE5D;
+  --color-whatsapp-hover: #179E4C;
+  --color-whatsapp-dark: #128C7E;
+
+  /* Urgency / Alert / Remove */
+  --color-alert-bg: #FEF2F2;
+  --color-alert-border: #FCA5A5;
+  --color-alert-text: #991B1B;
+
+  /* --- Typography System --- */
+  --font-sans-en: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", Consolas, Menlo, Monaco, monospace;
+  
+  /* Urdu Typography Stack */
+  --font-urdu-body: "Noto Naskh Arabic", "Urdu Typesetting", "Jameel Noori Nastaleeq", Tahoma, Arial, sans-serif;
+  --font-urdu-heading: "Noto Nastaliq Urdu", "Noto Naskh Arabic", "Jameel Noori Nastaleeq", Tahoma, serif;
+
+  /* Fluid Type Scale (Desktop & Mobile smoothly clamped) */
+  --font-size-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);  /* 12-13px */
+  --font-size-sm: clamp(0.84rem, 0.81rem + 0.2vw, 0.9375rem);   /* 13.5-15px */
+  --font-size-base: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);     /* 16-17px - Mobile minimum 16px */
+  --font-size-md: clamp(1.125rem, 1.05rem + 0.35vw, 1.25rem);   /* 18-20px */
+  --font-size-lg: clamp(1.28rem, 1.18rem + 0.55vw, 1.5rem);     /* 20.5-24px */
+  --font-size-xl: clamp(1.5rem, 1.32rem + 0.9vw, 1.875rem);     /* 24-30px */
+  --font-size-2xl: clamp(1.85rem, 1.55rem + 1.5vw, 2.375rem);   /* 29.5-38px */
+  --font-size-3xl: clamp(2.25rem, 1.85rem + 2vw, 3rem);         /* 36-48px */
+
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.65;
+  --line-height-urdu: 1.95; /* Minimum 1.8 requirement for Urdu script clarity */
+
+  /* Spacing Scale (8pt Grid) */
+  --space-2xs: 0.25rem;  /* 4px */
+  --space-xs: 0.5rem;    /* 8px */
+  --space-sm: 0.75rem;   /* 12px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2rem;      /* 32px */
+  --space-2xl: 3rem;     /* 48px */
+  --space-3xl: 4.5rem;   /* 72px */
+
+  /* Touch Targets & Layout Constraints */
+  --touch-target-min: 48px; /* Strict 48px target for steppers, buttons, links on mobile */
+  --container-max: 1240px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Solid Kitchen Hardware Shadows (Tactile, Not Airy Glass Glow) */
+  --shadow-sm: 0 1px 2px rgba(25, 30, 28, 0.06);
+  --shadow-md: 0 4px 8px -2px rgba(25, 30, 28, 0.08), 0 2px 4px -2px rgba(25, 30, 28, 0.04);
+  --shadow-lg: 0 12px 20px -4px rgba(25, 30, 28, 0.1), 0 4px 8px -2px rgba(25, 30, 28, 0.05);
+  --shadow-drawer: 0 -8px 24px rgba(25, 30, 28, 0.15);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Z-Index Hierarchy */
+  --z-base: 1;
+  --z-sticky-nav: 50;
+  --z-mobile-bar: 90;
+  --z-modal-backdrop: 100;
+  --z-modal-drawer: 110;
+}
+

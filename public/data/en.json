@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "A.T Cheese Shop Karachi | Bulk Mozzarella, Cheddar & Cream Cheese Supplier",
+    "description": "Bulk cheddar slices, mozzarella blocks, cream cheese, and commercial dairy supply in Gulshan-e-Iqbal, Karachi. Direct WhatsApp ordering for burger shops, pizza makers, bakeries, and caterers."
+  },
+  "nav": {
+    "brandSubtitle": "Gulshan Block 6, Karachi",
+    "products": "Products & Rates",
+    "orderBuilder": "Order Slip",
+    "bulkTerms": "Wholesale Terms",
+    "storage": "Storage Guide",
+    "reviews": "Rating",
+    "faq": "FAQ",
+    "visit": "Visit Depot",
+    "call": "Call Shop",
+    "whatsapp": "WhatsApp Order",
+    "langToggle": "اردو"
+  },
+  "hero": {
+    "status": "Wholesale Depot Open | Block 6, Gulshan-e-Iqbal",
+    "headline": "Bulk cheese supply for Karachi commercial kitchens and bakeries.",
+    "subline": "Cheddar slices, mozzarella blocks, cream cheese tubs, and dairy essentials. Packed for burger joints, pizza shops, caterers, and bulk buyers. Straightforward pricing, daily Karachi dispatch, direct WhatsApp ordering.",
+    "ctaOrder": "Build Wholesale Order",
+    "ctaCall": "Call +92 300 3394494",
+    "quickSpec1Label": "Minimum Dispatch",
+    "quickSpec1Value": "5 kg citywide",
+    "quickSpec2Label": "Gulshan Depot Pickup",
+    "quickSpec2Value": "Single packs welcome",
+    "quickSpec3Label": "Google Reputation",
+    "quickSpec3Value": "4.5 Stars (68 Reviews)"
+  },
+  "catalog": {
+    "title": "Available Bulk Dairy Inventory",
+    "subtitle": "Select pack sizes and quantities below. Prices shown in PKR are current wholesale estimates [client to confirm final invoice rates].",
+    "filterAll": "All Products",
+    "filterCheddar": "Cheddar Slices",
+    "filterMozzarella": "Mozzarella Blocks",
+    "filterCreamCheese": "Cream Cheese",
+    "filterOther": "Butter & Dairy",
+    "bestForLabel": "Kitchen Application",
+    "packSizeLabel": "Pack Size",
+    "qtyLabel": "Quantity",
+    "addButton": "Add to Slip",
+    "addedNotice": "Added to Slip"
+  },
+  "builder": {
+    "title": "Wholesale Order Slip",
+    "subtitle": "Review selected dairy items, adjust pack counts, and send your itemized order straight to our shop on WhatsApp.",
+    "emptyMessage": "No items on your order slip yet. Choose products from the catalog above to build your order.",
+    "itemHeader": "Item & Pack Size",
+    "qtyHeader": "Qty",
+    "rateHeader": "Rate",
+    "totalHeader": "Total",
+    "remove": "Remove",
+    "subtotalLabel": "Estimated Order Total",
+    "disclaimer": "Final total confirmed on WhatsApp based on verified scale weights and delivery location.",
+    "fulfillmentLegend": "Fulfillment Method",
+    "fulfillmentPickup": "Pickup at Gulshan-e-Iqbal Depot",
+    "fulfillmentDelivery": "Delivery within Karachi",
+    "nameLabel": "Business or Buyer Name",
+    "namePlaceholder": "e.g. Tariq Foods / Ali Ahmed",
+    "phoneLabel": "Contact Phone / WhatsApp",
+    "phonePlaceholder": "e.g. 0300 1234567",
+    "areaLabel": "Karachi Delivery Area",
+    "areaDefault": "Select your area in Karachi",
+    "notesLabel": "Order Notes / Cut Requirements (Optional)",
+    "notesPlaceholder": "e.g. Urgent morning dispatch, specific slice count preference, or directions...",
+    "sendButton": "Send Order on WhatsApp",
+    "validationName": "Please enter your name or business name.",
+    "validationPhone": "Please enter a valid phone number.",
+    "validationArea": "Please select a delivery area for Karachi dispatch.",
+    "whatsappNotice": "Clicking opens WhatsApp with your itemized batch order pre-written. No account or password needed."
+  },
+  "trade": {
+    "title": "Commercial Supply Terms",
+    "subtitle": "Clear operational rules for restaurant procurement officers, chef managers, and volume buyers.",
+    "minTitle": "Minimum Order Volumes",
+    "minDesc": "Shop pickup from Block 6 Gulshan has no strict minimum: single 1kg packs or 2kg blocks are welcome. For refrigerated city dispatch across Karachi, minimum dispatch is 5kg total order weight [client to confirm].",
+    "ratesTitle": "Regular Commercial Pricing",
+    "ratesDesc": "Standard rates apply to one-off purchases. Commercial accounts buying on fixed weekly or monthly volume receive commercial tiered rates [client to confirm]. Invoices settled per delivery or agreed schedule.",
+    "dispatchTitle": "Karachi Cold-Chain Routes",
+    "dispatchDesc": "Dispatched in thermal insulated cartons across Gulshan, Clifton, DHA, PECHS, Nazimabad, and industrial zones. Same-day cutoff is 2:00 PM for standard routes [client to confirm].",
+    "samplesTitle": "Commercial Kitchen Samples",
+    "samplesDesc": "Pizza operators and burger shops testing melt, stretch, or oil separation can purchase single testing packs or request sample coordination before committing to carton volumes."
+  },
+  "storage": {
+    "title": "Cold-Chain Storage & Handling",
+    "subtitle": "Factual temperature thresholds and handling practices to preserve yield, melt performance, and shelf life.",
+    "itemCol": "Dairy Product",
+    "tempCol": "Storage Temperature",
+    "shelfLifeCol": "Commercial Shelf Life",
+    "chefTipsTitle": "Commercial Kitchen Yield Rules",
+    "chefTip1": "Never freeze sliced cheddar. Freezing damages moisture emulsion, causing slices to shatter and crumble during sandwich assembly.",
+    "chefTip2": "Shred mozzarella only when thoroughly chilled (2°C to 4°C). Warm mozzarella gums up commercial shredders and sticks together in bins.",
+    "chefTip3": "Use dry, sanitized stainless steel utensils in cream cheese tubs. Any introduced water droplets create surface mold risk."
+  },
+  "reputation": {
+    "title": "Public Google Reputation",
+    "subtitle": "Verifiable rating from local commercial buyers and walk-in customers.",
+    "score": "4.5",
+    "scoreOutOf": "out of 5.0",
+    "countText": "68 Public Google Reviews",
+    "badge": "Verified Karachi Business Profile",
+    "transparencyTitle": "Verified Customer Reviews Policy",
+    "transparencyText": "A.T Cheese Shop is recognized locally in Karachi for bulk cheese supply. Direct quotes from restaurant owners and bulk buyers will be placed here once confirmed by the shop owner [client to supply]. We display genuine business data only."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Straightforward answers for chefs, procurement managers, and bulk buyers."
+  },
+  "location": {
+    "title": "Depot Location & Pickup",
+    "subtitle": "Visit our Gulshan-e-Iqbal shop for direct bulk purchases, sample testing, and immediate stock collection.",
+    "addressLabel": "Depot Address",
+    "addressValue": "Block 6, Gulshan-e-Iqbal, Karachi, Pakistan",
+    "hoursLabel": "Operating Hours",
+    "hoursValue": "Monday to Saturday: 10:00 AM – 9:00 PM",
+    "hoursSunday": "Sunday: Closed [client to confirm]",
+    "contactLabel": "Direct Phone / WhatsApp",
+    "directionsBtn": "Open in Google Maps",
+    "callBtn": "Call Shop Directly"
+  },
+  "footer": {
+    "about": "A.T Cheese Shop provides bulk cheddar slices, whole mozzarella blocks, bakery cream cheese, and commercial dairy supplies to food businesses and households across Karachi.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact & Depot",
+    "copyright": "A.T Cheese Shop, Gulshan-e-Iqbal, Karachi. All rights reserved.",
+    "disclaimer": "Product specifications and wholesale prices subject to confirmation upon WhatsApp dispatch."
+  },
+  "mobileBar": {
+    "slipLabel": "Order Slip",
+    "items": "items",
+    "viewSlip": "View Slip",
+    "call": "Call Depot",
+    "whatsapp": "WhatsApp"
+  }
+}
+

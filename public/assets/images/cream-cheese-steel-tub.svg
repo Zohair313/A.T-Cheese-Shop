@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="chillerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DDE4E0"/>
+      <stop offset="100%" stop-color="#BAC5C0"/>
+    </linearGradient>
+    <linearGradient id="metalTub" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#717E77"/>
+      <stop offset="25%" stop-color="#CBD3CE"/>
+      <stop offset="75%" stop-color="#9BA8A1"/>
+      <stop offset="100%" stop-color="#5B6862"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#chillerBg)"/>
+  <ellipse cx="400" cy="460" rx="270" ry="35" fill="rgba(25,30,28,0.2)"/>
+
+  <!-- Gastronorm Stainless Steel Pan -->
+  <g transform="translate(180, 160)">
+    <!-- Outer Metal Pan Rim -->
+    <rect x="0" y="0" width="440" height="280" rx="16" fill="url(#metalTub)" stroke="#444E49" stroke-width="2"/>
+    <rect x="18" y="18" width="404" height="244" rx="8" fill="#FFFFFF"/>
+    
+    <!-- Rich Matte Cream Cheese Filling -->
+    <rect x="22" y="22" width="396" height="236" rx="6" fill="#FDFBF7"/>
+    
+    <!-- Scoop / Spatula Mark Swirl -->
+    <path d="M 60 120 C 140 80, 220 180, 340 100 C 370 80, 390 140, 350 180 C 260 250, 120 180, 60 120 Z" 
+          fill="#F5EFE3" stroke="#E2D7C3" stroke-width="2"/>
+    
+    <!-- Spatula tool lying across corner -->
+    <g transform="translate(280, 40) rotate(35)">
+      <polygon points="0,0 180,5 175,25 0,20" fill="#CCD5D0" stroke="#717E77"/>
+      <rect x="-80" y="3" width="80" height="14" rx="2" fill="#29302D"/>
+    </g>
+  </g>
+
+  <!-- Technical Spec Badge Overlay -->
+  <g transform="translate(48, 48)">
+    <rect width="280" height="64" rx="6" fill="#191E1C" fill-opacity="0.92"/>
+    <text x="16" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#F59E0B">COMMERCIAL CREAM CHEESE</text>
+    <text x="16" y="48" font-family="system-ui, sans-serif" font-size="12" fill="#E3E8E5">Dense Bakery Tub • 1kg / 2kg / 5kg</text>
+  </g>
+  <text x="750" y="570" font-family="system-ui, sans-serif" font-size="12" fill="#444E49" text-anchor="end">Photo Brief: Canon EOS R6 50mm f/1.8 • A.T Cheese Shop</text>
+</svg>

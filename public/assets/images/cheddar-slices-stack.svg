@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="steelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8E5"/>
+      <stop offset="50%" stop-color="#CCD5D0"/>
+      <stop offset="100%" stop-color="#B6C1BB"/>
+    </linearGradient>
+    <linearGradient id="cheddarGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E58E1B"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <pattern id="brushed" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20 L40 20 M0 10 L40 10 M0 30 L40 30" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <!-- Background Countertop -->
+  <rect width="800" height="600" fill="url(#steelBg)"/>
+  <rect width="800" height="600" fill="url(#brushed)"/>
+  
+  <!-- Counter shadow -->
+  <ellipse cx="400" cy="460" rx="260" ry="40" fill="rgba(25,30,28,0.25)"/>
+
+  <!-- Stacked Slices with Interleaf Paper -->
+  <g transform="translate(180, 180)">
+    <!-- Base Paper & Lower Slices (Repeated stacked illusion) -->
+    <rect x="30" y="210" width="400" height="18" rx="2" fill="#D97706" stroke="#B45309"/>
+    <rect x="25" y="206" width="410" height="4" fill="#FFFDF5" opacity="0.9"/>
+    
+    <rect x="32" y="188" width="396" height="18" rx="2" fill="#E58E1B" stroke="#B45309"/>
+    <rect x="28" y="184" width="404" height="4" fill="#FFFDF5" opacity="0.9"/>
+
+    <rect x="30" y="166" width="400" height="18" rx="2" fill="#D97706" stroke="#B45309"/>
+    <rect x="26" y="162" width="408" height="4" fill="#FFFDF5" opacity="0.9"/>
+
+    <rect x="34" y="144" width="392" height="18" rx="2" fill="#E58E1B" stroke="#B45309"/>
+    <rect x="30" y="140" width="400" height="4" fill="#FFFDF5" opacity="0.9"/>
+
+    <rect x="30" y="122" width="400" height="18" rx="2" fill="#D97706" stroke="#B45309"/>
+    <rect x="26" y="118" width="408" height="4" fill="#FFFDF5" opacity="0.9"/>
+
+    <rect x="32" y="100" width="396" height="18" rx="2" fill="#F59E0B" stroke="#B45309"/>
+    <rect x="28" y="96" width="404" height="4" fill="#FFFDF5" opacity="0.9"/>
+
+    <rect x="30" y="78" width="400" height="18" rx="2" fill="#E58E1B" stroke="#B45309"/>
+    <rect x="25" y="74" width="410" height="4" fill="#FFFDF5" opacity="0.9"/>
+
+    <!-- Top Slice Angled slightly -->
+    <g transform="rotate(-2 230 50)">
+      <rect x="30" y="40" width="400" height="24" rx="3" fill="url(#cheddarGold)" stroke="#B45309" stroke-width="1.5"/>
+      <polygon points="30,40 430,40 450,15 50,15" fill="#FDE68A" stroke="#B45309" stroke-width="1"/>
+      <polygon points="430,40 430,64 450,39 450,15" fill="#D97706"/>
+      <!-- Interleaf parchment paper corner sticking out -->
+      <polygon points="360,10 460,10 440,55 350,45" fill="#FFFDF0" opacity="0.85" stroke="#E5E7EB"/>
+    </g>
+  </g>
+
+  <!-- Technical Spec Badge Overlay -->
+  <g transform="translate(48, 48)">
+    <rect width="260" height="64" rx="6" fill="#191E1C" fill-opacity="0.92"/>
+    <text x="16" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#F59E0B">COMMERCIAL CHEDDAR SLICES</text>
+    <text x="16" y="48" font-family="system-ui, sans-serif" font-size="12" fill="#E3E8E5">Interleaf Parchment • ~84 Slices/kg</text>
+  </g>
+  <text x="750" y="570" font-family="system-ui, sans-serif" font-size="12" fill="#444E49" text-anchor="end">Photo Brief: Canon EOS R6 50mm f/1.8 • A.T Cheese Shop</text>
+</svg>

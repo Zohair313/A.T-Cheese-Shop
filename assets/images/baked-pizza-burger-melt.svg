@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#201C19"/>
+
+  <!-- Left: Hot Pan Pizza Slice with browned spots -->
+  <g transform="translate(80, 80)">
+    <polygon points="120,480 480,480 320,120" fill="#E8B878" stroke="#92400E" stroke-width="3"/>
+    <!-- Pizza Cheese Layer -->
+    <polygon points="140,460 460,460 320,150" fill="#FCFAF2"/>
+    <!-- Browned Blister Spots -->
+    <circle cx="280" cy="300" r="16" fill="#92400E" opacity="0.8"/>
+    <circle cx="340" cy="360" r="22" fill="#B45309" opacity="0.75"/>
+    <circle cx="250" cy="400" r="14" fill="#92400E" opacity="0.8"/>
+    <circle cx="380" cy="410" r="18" fill="#B45309" opacity="0.8"/>
+    <text x="300" y="520" font-family="system-ui, sans-serif" font-weight="700" font-size="16" fill="#FDE68A" text-anchor="middle">High-Temp Mozzarella Stretch</text>
+  </g>
+
+  <!-- Right: Smash Burger with Dripping Cheddar Slices -->
+  <g transform="translate(620, 100)">
+    <!-- Top bun -->
+    <path d="M 80 240 Q 240 100 400 240 Z" fill="#D97706" stroke="#92400E" stroke-width="2"/>
+    <!-- Seared beef patty 1 -->
+    <rect x="70" y="240" width="340" height="40" rx="8" fill="#451A03"/>
+    <!-- Melted Cheddar Drips -->
+    <path d="M 60 270 Q 120 270 140 330 Q 160 270 240 270 Q 280 340 320 270 L 420 270 L 410 295 L 70 295 Z" fill="#F59E0B"/>
+    <!-- Seared beef patty 2 -->
+    <rect x="70" y="295" width="340" height="40" rx="8" fill="#451A03"/>
+    <!-- Second Cheddar Melt -->
+    <path d="M 65 330 Q 200 370 230 400 Q 250 340 415 335 L 400 360 L 80 360 Z" fill="#D97706"/>
+    <!-- Bottom bun -->
+    <path d="M 80 360 L 400 360 Q 400 420 240 420 Q 80 420 80 360 Z" fill="#D97706" stroke="#92400E" stroke-width="2"/>
+    <text x="240" y="470" font-family="system-ui, sans-serif" font-weight="700" font-size="16" fill="#FDE68A" text-anchor="middle">Even Burger Cheddar Melt</text>
+  </g>
+
+  <!-- Banner overlay -->
+  <g transform="translate(60, 40)">
+    <rect width="380" height="64" rx="6" fill="#191E1C" fill-opacity="0.92"/>
+    <text x="20" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="14" fill="#F59E0B">COMMERCIAL KITCHEN YIELD</text>
+    <text x="20" y="48" font-family="system-ui, sans-serif" font-size="12" fill="#E3E8E5">Tested for Pizza Stretch & Burger Slice Hold</text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="kraftBox" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4A373"/>
+      <stop offset="100%" stop-color="#BC8A5F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#E2E8E5"/>
+  <ellipse cx="400" cy="490" rx="260" ry="35" fill="rgba(25,30,28,0.2)"/>
+
+  <!-- Kraft Dispatch Carton Box -->
+  <g transform="translate(220, 180)">
+    <!-- Main Box Front -->
+    <rect x="0" y="80" width="360" height="220" rx="6" fill="url(#kraftBox)" stroke="#A2673B" stroke-width="2"/>
+    
+    <!-- Open box flaps -->
+    <polygon points="0,80 80,0 280,0 200,80" fill="#E6BA8F" stroke="#A2673B"/>
+    <polygon points="360,80 440,0 520,30 360,80" fill="#C59363" stroke="#A2673B"/>
+    <polygon points="0,80 -50,30 30,0 0,80" fill="#BC8A5F" stroke="#A2673B"/>
+
+    <!-- Inside the carton: insulated lining & cheese blocks -->
+    <rect x="20" y="50" width="320" height="70" fill="#F1F5F9" stroke="#CBD5E1"/>
+    <!-- Stacked cheese packages inside -->
+    <rect x="40" y="40" width="120" height="50" rx="4" fill="#D97706"/>
+    <rect x="180" y="35" width="130" height="55" rx="4" fill="#FDFBF7" stroke="#CBD5E1"/>
+
+    <!-- Marker dispatch slip taped on box -->
+    <rect x="50" y="140" width="160" height="90" rx="2" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <line x1="65" y1="165" x2="180" y2="165" stroke="#191E1C" stroke-width="3"/>
+    <line x1="65" y1="185" x2="160" y2="185" stroke="#191E1C" stroke-width="2"/>
+    <line x1="65" y1="205" x2="140" y2="205" stroke="#191E1C" stroke-width="2"/>
+  </g>
+
+  <!-- Technical Spec Badge Overlay -->
+  <g transform="translate(48, 48)">
+    <rect width="280" height="64" rx="6" fill="#191E1C" fill-opacity="0.92"/>
+    <text x="16" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#F59E0B">PACKED DISPATCH CARTON</text>
+    <text x="16" y="48" font-family="system-ui, sans-serif" font-size="12" fill="#E3E8E5">Insulated for Karachi City Dispatch</text>
+  </g>
+</svg>

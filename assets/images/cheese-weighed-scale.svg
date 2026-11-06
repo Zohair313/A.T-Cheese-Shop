@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#DDE4E0"/>
+  <ellipse cx="400" cy="480" rx="280" ry="40" fill="rgba(25,30,28,0.2)"/>
+
+  <!-- Digital Platform Scale Body -->
+  <g transform="translate(200, 250)">
+    <rect x="0" y="120" width="400" height="120" rx="12" fill="#29302D" stroke="#191E1C" stroke-width="3"/>
+    
+    <!-- Digital display window -->
+    <rect x="110" y="160" width="180" height="50" rx="6" fill="#065F46" stroke="#0D7355"/>
+    <text x="200" y="196" font-family="monospace" font-weight="900" font-size="28" fill="#34D399" text-anchor="middle">5.025 kg</text>
+    
+    <!-- Top stainless platform -->
+    <rect x="-30" y="80" width="460" height="40" rx="6" fill="#CCD5D0" stroke="#717E77" stroke-width="2"/>
+    
+    <!-- Tare Bowl with Shredded Cheese -->
+    <ellipse cx="200" cy="80" rx="180" ry="45" fill="#B6C1BB" stroke="#717E77"/>
+    <!-- Mound of shredded mozzarella/cheddar -->
+    <path d="M 60 70 Q 200 -30 340 70 Q 200 110 60 70 Z" fill="#FDE68A" stroke="#D97706" stroke-width="2"/>
+    <!-- Shred markings -->
+    <line x1="120" y1="40" x2="160" y2="60" stroke="#D97706" stroke-width="3"/>
+    <line x1="200" y1="20" x2="230" y2="50" stroke="#FFFFFF" stroke-width="3"/>
+    <line x1="250" y1="30" x2="290" y2="55" stroke="#D97706" stroke-width="3"/>
+    <line x1="150" y1="25" x2="190" y2="45" stroke="#FFFFFF" stroke-width="3"/>
+  </g>
+
+  <!-- Technical Spec Badge Overlay -->
+  <g transform="translate(48, 48)">
+    <rect width="280" height="64" rx="6" fill="#191E1C" fill-opacity="0.92"/>
+    <text x="16" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#F59E0B">PRECISION BULK PORTIONS</text>
+    <text x="16" y="48" font-family="system-ui, sans-serif" font-size="12" fill="#E3E8E5">Commercial Kitchen Weight Verification</text>
+  </g>
+</svg>

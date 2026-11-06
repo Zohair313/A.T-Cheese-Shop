@@ -1,0 +1,323 @@
+{
+  "business": {
+    "name": "A.T Cheese Shop",
+    "tagline": "Bulk Commercial Cheese & Dairy Supply",
+    "city": "Karachi",
+    "country": "Pakistan",
+    "address": {
+      "street": "Block 6, Gulshan-e-Iqbal",
+      "area": "Gulshan-e-Iqbal",
+      "city": "Karachi",
+      "postalCode": "75300",
+      "full": "Block 6, Gulshan-e-Iqbal, Karachi, Sindh, Pakistan",
+      "googleMapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14476.353348163538!2d67.0858!3d24.9207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f4439c36297%3A0x6b772477c74bb9f3!2sGulshan-e-Iqbal%20Block%206%2C%20Karachi!5e0!3m2!1sen!2spk!4v1700000000000",
+      "directionsUrl": "https://maps.google.com/?q=Block+6+Gulshan-e-Iqbal+Karachi"
+    },
+    "contact": {
+      "phoneDisplay": "+92 300 3394494",
+      "phoneRaw": "+923003394494",
+      "whatsappRaw": "923003394494",
+      "whatsappDirectUrl": "https://wa.me/923003394494"
+    },
+    "hours": {
+      "days": "Monday – Saturday",
+      "time": "10:00 AM – 9:00 PM",
+      "sunday": "Closed [client to confirm]",
+      "note": "Timings subject to verification [client to confirm]"
+    },
+    "reputation": {
+      "googleRating": 4.5,
+      "reviewCount": 68,
+      "source": "Google Business Profile",
+      "status": "Verified public listing"
+    }
+  },
+  "tradeTerms": {
+    "minimumOrderPickup": "1 pack / 1 block [client to confirm]",
+    "minimumOrderDelivery": "5 kg minimum order for Karachi dispatch [client to confirm]",
+    "pricingPolicy": "Wholesale prices based on pack size. Commercial discounts for daily or weekly bulk buyers [client to confirm rates].",
+    "deliveryWindows": "Dispatched via local rider or refrigerated courier across Karachi. Cutoff for same-day dispatch: 2:00 PM [client to confirm].",
+    "samples": "Sample packs available for registered commercial kitchens, burger shops, and bakeries upon request [client to confirm terms]."
+  },
+  "deliveryAreas": [
+    {
+      "id": "gulshan",
+      "nameEn": "Gulshan-e-Iqbal & Gulistan-e-Jauhar",
+      "nameUr": "گلشن اقبال اور گلستان جوہر",
+      "estTimeEn": "Same-day (1-3 hours)",
+      "estTimeUr": "اسی دن (1 سے 3 گھنٹے)"
+    },
+    {
+      "id": "pechs",
+      "nameEn": "PECHS, Tariq Road & Bahadurabad",
+      "nameUr": "پی ای سی ایچ ایس، طارق روڈ، بہادر آباد",
+      "estTimeEn": "Same-day",
+      "estTimeUr": "اسی دن"
+    },
+    {
+      "id": "nazimabad",
+      "nameEn": "North Nazimabad & Nazimabad",
+      "nameUr": "نارتھ ناظم آباد اور ناظم آباد",
+      "estTimeEn": "Same-day",
+      "estTimeUr": "اسی دن"
+    },
+    {
+      "id": "clifton_dha",
+      "nameEn": "Clifton & DHA (Phases 1 - 8)",
+      "nameUr": "کلفٹن اور ڈی ایچ اے (فیز 1 تا 8)",
+      "estTimeEn": "Scheduled daily dispatch",
+      "estTimeUr": "روزانہ شیڈول ڈسپیچ"
+    },
+    {
+      "id": "fb_area",
+      "nameEn": "Federal B Area & Liaquatabad",
+      "nameUr": "فیڈرل بی ایریا اور لیاقت آباد",
+      "estTimeEn": "Same-day",
+      "estTimeUr": "اسی دن"
+    },
+    {
+      "id": "korangi_ind",
+      "nameEn": "Korangi, Site & Industrial Areas",
+      "nameUr": "کورنگی، سائٹ اور انڈسٹریل ایریاز",
+      "estTimeEn": "Next-day commercial route [client to confirm]",
+      "estTimeUr": "اگلے دن کمرشل روٹ [کلائنٹ تصدیق کرے]"
+    },
+    {
+      "id": "other_khi",
+      "nameEn": "Other Karachi Areas",
+      "nameUr": "کراچی کے دیگر تمام علاقے",
+      "estTimeEn": "Coordinated dispatch",
+      "estTimeUr": "رابطہ کے بعد ڈسپیچ"
+    }
+  ],
+  "products": [
+    {
+      "id": "cheddar-slices",
+      "category": "cheddar",
+      "nameEn": "Commercial Cheddar Slices",
+      "nameUr": "کمرشل چیڈر چیز سلائسز",
+      "descriptionEn": "Evenly sliced yellow cheddar with interleaf parchment paper. Melts smoothly over smash burgers and sandwiches without splitting.",
+      "descriptionUr": "بٹر پیپر الگ شدہ زرد چیڈر سلائسز۔ سمیش برگر اور سینڈوچز پر یکساں اور ملائم میلٹ کے لیے بہترین۔",
+      "bestForEn": "Smash burgers, grilled cheese, commercial sandwiches",
+      "bestForUr": "سمیش برگر، گرلڈ چیز، اور کمرشل سینڈوچز",
+      "image": "assets/images/cheddar-slices-stack.jpg",
+      "imagePlaceholder": "assets/images/cheddar-slices-stack.svg",
+      "packSizes": [
+        {
+          "id": "cs-1kg",
+          "sizeEn": "1 kg Pack (~84 Slices)",
+          "sizeUr": "1 کلو پیک (تقریباً 84 سلائسز)",
+          "pricePkr": 2200,
+          "priceNote": "[client to confirm exact price]",
+          "unit": "pack"
+        },
+        {
+          "id": "cs-2kg",
+          "sizeEn": "2 kg Master Pack (~168 Slices)",
+          "sizeUr": "2 کلو ماسٹر پیک (تقریباً 168 سلائسز)",
+          "pricePkr": 4300,
+          "priceNote": "[client to confirm exact price]",
+          "unit": "pack"
+        },
+        {
+          "id": "cs-case",
+          "sizeEn": "Commercial Case (10 x 1 kg)",
+          "sizeUr": "کمرشل پیٹی (10 ضرب 1 کلو)",
+          "pricePkr": 21000,
+          "priceNote": "[client to confirm bulk rate]",
+          "unit": "carton"
+        }
+      ]
+    },
+    {
+      "id": "mozzarella-block",
+      "category": "mozzarella",
+      "nameEn": "Whole Milk Mozzarella Block",
+      "nameUr": "ہول ملک موزارِیلا بلاک",
+      "descriptionEn": "Low-moisture, high-stretch solid mozzarella block. Easy to shred or dice for high-temperature pizza ovens and baked dishes.",
+      "descriptionUr": "کم نمی اور بہترین کھنچاؤ والا ٹھوس موزارِیلا بلاک۔ ہائی ٹمپریچر پیزا اوون اور بیکڈ آئٹمز کے لیے گھسنا آسان۔",
+      "bestForEn": "Pizza crusts, mozzarella sticks, pasta bakes",
+      "bestForUr": "پیزا، چیز اسٹکس، اور بیکڈ پاستا",
+      "image": "assets/images/mozzarella-block-cut.jpg",
+      "imagePlaceholder": "assets/images/mozzarella-block-cut.svg",
+      "packSizes": [
+        {
+          "id": "mb-2kg",
+          "sizeEn": "2 kg Solid Block",
+          "sizeUr": "2 کلو ٹھوس بلاک",
+          "pricePkr": 3800,
+          "priceNote": "[client to confirm exact price]",
+          "unit": "block"
+        },
+        {
+          "id": "mb-2_5kg",
+          "sizeEn": "2.5 kg Solid Block",
+          "sizeUr": "2.5 کلو ٹھوس بلاک",
+          "pricePkr": 4700,
+          "priceNote": "[client to confirm exact price]",
+          "unit": "block"
+        },
+        {
+          "id": "mb-carton",
+          "sizeEn": "Wholesale Carton (4 x 2.5 kg = 10 kg)",
+          "sizeUr": "تھوک کارٹن (4 ضرب 2.5 کلو = 10 کلو)",
+          "pricePkr": 18200,
+          "priceNote": "[client to confirm bulk rate]",
+          "unit": "carton"
+        }
+      ]
+    },
+    {
+      "id": "cream-cheese",
+      "category": "cream-cheese",
+      "nameEn": "Commercial Bakery Cream Cheese",
+      "nameUr": "کمرشل بیکری کریم چیز",
+      "descriptionEn": "Dense, velvety, spreadable cream cheese with balanced tang. Holds structure firmly in baked cheesecakes and cold dessert frostings.",
+      "descriptionUr": "گاڑھا، ملائم اور متوازن کھٹاس والا کریم چیز۔ بیکڈ چیز کیک اور میٹھے کی فراسٹنگ میں بہترین استحکام برقرار رکھتا ہے۔",
+      "bestForEn": "New York cheesecakes, frostings, dips, bagel spreads",
+      "bestForUr": "چیز کیک، بیکری فراسٹنگ، ساسز اور بیگلز",
+      "image": "assets/images/cream-cheese-steel-tub.jpg",
+      "imagePlaceholder": "assets/images/cream-cheese-steel-tub.svg",
+      "packSizes": [
+        {
+          "id": "cc-1kg",
+          "sizeEn": "1 kg Food-Grade Tub",
+          "sizeUr": "1 کلو فوڈ گریڈ ٹب",
+          "pricePkr": 2400,
+          "priceNote": "[client to confirm exact price]",
+          "unit": "tub"
+        },
+        {
+          "id": "cc-2kg",
+          "sizeEn": "2 kg Food-Grade Tub",
+          "sizeUr": "2 کلو فوڈ گریڈ ٹب",
+          "pricePkr": 4600,
+          "priceNote": "[client to confirm exact price]",
+          "unit": "tub"
+        },
+        {
+          "id": "cc-bucket",
+          "sizeEn": "5 kg Commercial Pail",
+          "sizeUr": "5 کلو کمرشل بالٹی",
+          "pricePkr": 11000,
+          "priceNote": "[client to confirm bulk rate]",
+          "unit": "pail"
+        }
+      ]
+    },
+    {
+      "id": "other-dairy",
+      "category": "other-dairy",
+      "nameEn": "Bulk Butter & Commercial Dairy Essentials",
+      "nameUr": "تھوک مکھن اور کمرشل ڈیری مصنوعات",
+      "descriptionEn": "Unsalted commercial cooking butter, cheddar blocks, and whipping cream for professional commercial bakeries and caterers.",
+      "descriptionUr": "پیشہ ور بیکریوں اور کیٹررز کے لیے بغیر نمک والا کمرشل مکھن، چیڈر بلاکس اور وہپنگ کریم۔",
+      "bestForEn": "Commercial pastry, dough lamination, rich sauces",
+      "bestForUr": "پیسٹری، ڈو، کروسانٹس اور کچن ساسز",
+      "image": "assets/images/dairy-assortment-counter.jpg",
+      "imagePlaceholder": "assets/images/dairy-assortment-counter.svg",
+      "packSizes": [
+        {
+          "id": "od-butter-1kg",
+          "sizeEn": "Commercial Butter (1 kg Block)",
+          "sizeUr": "کمرشل کوکنگ بٹر (1 کلو بلاک)",
+          "pricePkr": 2100,
+          "priceNote": "[client to confirm exact price]",
+          "unit": "block"
+        },
+        {
+          "id": "od-butter-5kg",
+          "sizeEn": "Commercial Butter (5 kg Slab)",
+          "sizeUr": "کمرشل کوکنگ بٹر (5 کلو سلیب)",
+          "pricePkr": 9900,
+          "priceNote": "[client to confirm bulk rate]",
+          "unit": "slab"
+        },
+        {
+          "id": "od-cream-1l",
+          "sizeEn": "Heavy Dairy Cream (1 Litre Pack)",
+          "sizeUr": "ہیوی ڈیری کریم (1 لٹر پیک)",
+          "pricePkr": 1450,
+          "priceNote": "[client to confirm exact price]",
+          "unit": "pack"
+        }
+      ]
+    }
+  ],
+  "storageNotes": [
+    {
+      "itemEn": "Mozzarella Blocks",
+      "itemUr": "موزارِیلا بلاکس",
+      "tempEn": "Chilled at 2°C to 4°C. Freeze below -18°C only if portioned or shredded.",
+      "tempUr": "2 سے 4 ڈگری پر چل رکھیں۔ فریز صرف کٹنگ یا شریڈنگ کے بعد منفی 18 ڈگری پر کریں۔",
+      "shelfLifeEn": "Unopened vacuum pack: 60-90 days [client to confirm]. Once opened: use within 7 days.",
+      "shelfLifeUr": "بغیر کھلے ویکیوم پیک: 60 تا 90 دن۔ کھولنے کے بعد: 7 دن کے اندر استعمال کریں۔"
+    },
+    {
+      "itemEn": "Cheddar Burger Slices",
+      "itemUr": "چیڈر برگر سلائسز",
+      "tempEn": "Chilled at 2°C to 5°C. Never freeze slices; freezing makes slices brittle and break.",
+      "tempUr": "2 سے 5 ڈگری پر چل رکھیں۔ سلائسز کو کبھی فریز نہ کریں کیونکہ فریز کرنے سے سلائس ٹوٹنے لگتے ہیں۔",
+      "shelfLifeEn": "Unopened pack: 90 days [client to confirm]. Keep wrapped in original interleaf pack.",
+      "shelfLifeUr": "بغیر کھلے: 90 دن۔ اصل بٹر پیپر پیک میں ایئر ٹائٹ لپیٹ کر رکھیں۔"
+    },
+    {
+      "itemEn": "Bakery Cream Cheese",
+      "itemUr": "بیکری کریم چیز",
+      "tempEn": "Strictly 2°C to 4°C. Do not freeze; freezing permanently splits the emulsion.",
+      "tempUr": "سختی سے 2 سے 4 ڈگری پر رکھیں۔ فریز مت کریں ورنہ کریم چیز کا ٹیکسچر پھٹ جائے گا۔",
+      "shelfLifeEn": "Unopened tub: 60 days [client to confirm]. Keep surface covered with clean wrap.",
+      "shelfLifeUr": "بغیر کھلے ٹب: 60 دن۔ سطح پر شفاف ریپ ڈال کر نمی محفوظ رکھیں۔"
+    }
+  ],
+  "faq": [
+    {
+      "qEn": "What is the minimum quantity I can order for bulk pricing?",
+      "qUr": "تھوک نرخوں کے لیے کم از کم کتنی مقدار آرڈر کر سکتے ہیں؟",
+      "aEn": "Single packs or blocks can be picked up directly from our Gulshan-e-Iqbal shop. For scheduled delivery across Karachi, the minimum dispatch order is typically 5 kg [client to confirm]. Regular commercial kitchens receive tiered rates on recurring weekly volume.",
+      "aUr": "سنگل پیک یا بلاک ہماری گلشن اقبال شاپ سے ڈائریکٹ لیا جا سکتا ہے۔ کراچی میں ہوم/شاپ ڈلیوری کے لیے کم از کم آرڈر عام طور پر 5 کلو ہوتا ہے [کلائنٹ تصدیق کرے]۔ باقاعدہ کمرشل کچنز کو ہفتہ وار بنیاد پر خصوصی ریٹ دیے جاتے ہیں۔"
+    },
+    {
+      "qEn": "How does delivery work across Karachi, and what are the charges?",
+      "qUr": "کراچی میں ڈلیوری کا کیا طریقہ کار ہے اور چارجز کیا ہیں؟",
+      "aEn": "We coordinate dispatches using insulated packaging via local delivery riders or third-party dispatch. Delivery charges depend on your area (Gulshan, Clifton, Nazimabad, Korangi) and order weight [client to confirm exact rate schedule].",
+      "aUr": "ہم انسولیٹڈ پیکنگ کے ساتھ مقامی رائیڈرز یا کورئیر کے ذریعے ڈسپیچ کرتے ہیں۔ ڈلیوری چارجز آپ کے علاقے اور وزن کے مطابق طے کیے جاتے ہیں [کلائنٹ تصدیق کرے]۔"
+    },
+    {
+      "qEn": "What payment methods are accepted?",
+      "qUr": "ادائیگی کے کون سے طریقے قبول کیے جاتے ہیں؟",
+      "aEn": "Cash on pickup at the Gulshan shop, Cash on Delivery (COD) for confirmed Karachi rider deliveries, and direct Bank Transfer / Raast for commercial orders [client to confirm]. We do not store cards or require online card payments.",
+      "aUr": "شاپ پر نقد ادائیگی، تصدیق شدہ آرڈرز پر کیش آن ڈلیوری (COD)، اور کمرشل اکاؤنٹس کے لیے بینک ٹرانسفر / راست قبول کیا جاتا ہے۔ آن لائن کارڈ کی ضرورت نہیں۔"
+    },
+    {
+      "qEn": "Can we test samples for our restaurant or bakery before ordering in bulk?",
+      "qUr": "کیا ہمارا ریسٹورنٹ یا بیکری بلک آرڈر سے پہلے سیمپل چیک کر سکتا ہے؟",
+      "aEn": "Yes. Registered food businesses, pizza shops, burger joints, and bakeries can purchase paid sample cuts or test blocks at the shop or request a sample dispatch via WhatsApp [client to confirm terms].",
+      "aUr": "جی ہاں۔ رجسٹرڈ فوڈ بزنس، پیزا، برگر شاپس اور بیکریز شاپ پر آ کر سیمپل حاصل کر سکتے ہیں یا واٹس ایپ پر سیمپل ریکویسٹ بھیج سکتے ہیں [کلائنٹ تصدیق کرے]۔"
+    },
+    {
+      "qEn": "How should we store and handle bulk cheese in a commercial kitchen?",
+      "qUr": "کمرشل کچن میں بلک چیز کو کیسے محفوظ رکھا جائے؟",
+      "aEn": "Keep all cheese between 2°C and 4°C in a dedicated commercial chiller. Always use clean sanitized gloves and dry cutting knives. Keep opened blocks sealed airtight to prevent dehydration and odor absorption from other kitchen prep items.",
+      "aUr": "تمام چیز کو 2 سے 4 ڈگری پر مخصوص چلر میں رکھیں۔ کٹنگ کے وقت ہمیشہ خشک اور جراثیم سے پاک اوزار استعمال کریں۔ ہوا سے بچانے کے لیے ایئر ٹائٹ ریپ کریں۔"
+    },
+    {
+      "qEn": "How do recurring weekly or daily kitchen supply orders work?",
+      "qUr": "ہفتہ وار یا روزانہ مستقل کچن سپلائی کیسے سیٹ کی جائے؟",
+      "aEn": "Send your estimated weekly consumption via WhatsApp. We reserve your batch inventory and schedule fixed dispatch days so your kitchen prep never runs out during peak service hours.",
+      "aUr": "واٹس ایپ پر اپنی ہفتہ وار ضروریات کا تخمینہ شیئر کریں۔ ہم آپ کے کچن کا اسٹاک ریزرو رکھتے ہیں اور مقررہ دنوں پر وقت پر ڈسپیچ کو یقینی بناتے ہیں۔"
+    }
+  ],
+  "reviews": {
+    "summary": {
+      "googleRating": 4.5,
+      "reviewCount": 68,
+      "source": "Google Verified Reviews",
+      "statementEn": "A.T Cheese Shop holds a 4.5-star rating across 68 public Google reviews from Karachi cheese buyers and food operators.",
+      "statementUr": "اے ٹی چیز شاپ کو کراچی کے خریداروں اور کچن آپریٹرز کی جانب سے 68 پبلک گوگل ریویوز میں 4.5 ریٹنگ حاصل ہے۔"
+    },
+    "noteEn": "Verifiable customer quotes will be displayed here as provided by the shop owner [client to supply verified quotes]. We do not invent fictional customer testimonials.",
+    "noteUr": "مستند کسٹمر ریویوز دکان کے مالک کی طرف سے فراہم کیے جانے کے بعد یہاں شامل کیے جائیں گے۔ ہم فرضی تبصرے شامل نہیں کرتے۔"
+  }
+}
+
